@@ -1,0 +1,20 @@
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    list-style: none;
+}
+header nav ul li:list-child a {
+    margin-right: 0;
+}
+header nav ul li a {
+    color: ;
+    margin-right: 1.5 rem;
+}
