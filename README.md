@@ -2,7 +2,7 @@
 
 > Status do projeto: :warning: (em desenvolvimento)
 
-![Design preview for the Easybank landing page coding challenge](./assets/img/desktop-preview.jpg)
+![Design preview for the Easybank landing page coding challenge](./assets//design/desktop-preview.jpg)
 
 
 ## Descrição do projeto:
