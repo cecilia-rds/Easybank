@@ -1,20 +1,21 @@
-header {
+.cabeçalho {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-header nav ul {
+.menu {
     display: flex;
+    justify-content: center;
 }
-header nav ul li {
+.menu-item {
     list-style: none;
+    margin: 5%;
+    text-decoration: none;
 }
-header nav ul li:list-child a {
-    margin-right: 0;
-}
-header nav ul li a {
-    color: ;
-    margin-right: 1.5 rem;
+.invite {
+    display: flex;
+    border-radius: 20px;
+    padding: 10px;
 }
