@@ -1,0 +1,25 @@
+.container {
+
+}
+.lista-beneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.beneficios__img {
+    display: flex;
+    flex-direction: column;
+    width: 7%;
+}
+.beneficios__titulo {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+}
+.beneficios__descricao {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    background-color: red;
+}
+

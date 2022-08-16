@@ -1,0 +1,18 @@
+.artigos {
+    display: flex;
+    flex-direction: column;
+}
+.artigos__titulo {
+    font-size: 2em;
+}
+.artigos__img {
+    display: flex;
+    width: 20%;
+}
+.credits {
+    font-size: 14px;
+    color: gray;
+}
+.artigos__descricao {
+    color: gray;
+}
