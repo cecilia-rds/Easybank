@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.banner {
+    display: flex;
+    
+}
+.banner__img {
+    background-image: 
+        url('../images/bg-intro-desktop.svg');
+    width: 90%;
+    height: auto;
+
+}
+.banner__tirulo {
+    font-size: 3em;
+    margin-bottom: 0%;
+
+}
+.banner__descricao {
+    color: gray;
+    justify-items: center;
+
+}
+.banner__demonstracao {
+    width: 90%;
+    margin-left: 25%;
+}
+.banner__invite {
+   border-radius: 50px;
+   height: 6%;
+   width: 30%;
+ 
+   background: linear-gradient(color #293b36 #252928 #a7dfce);
+}
