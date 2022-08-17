@@ -1,5 +1,6 @@
 footer{
     background-color: hsl(233, 26%, 24%);
+
 }
 .rodape {
     display: flex;
@@ -53,11 +54,58 @@ footer{
 }
 .copyright {
   color: gray;
+  padding-top: 10%;
 }
 
 
 @media(max-width:768px) {
 
-
+ 
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     
+    .logo__footer {
+        display: flex;
+        padding-top: 2%;
+        height: 40px;
+        margin: auto;
+
+    }
+    .rodape__sociais {
+        display: flex;
+        align-items: center;
+        padding-bottom: 5%;
+
+    }
+    .rede {
+        width: 30px;
+        margin-right: 10%;
+        
+    }
+    .menu__footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+        padding: 0%;
+    }
+    .menu__footer-item {
+        
+    }
+    .rodape__botao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 3%;
+        padding-top: 5%;
+        
+    }
+    .copyright {
+        text-align: center;
+    }
+
+  
 }
