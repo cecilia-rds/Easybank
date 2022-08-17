@@ -1,18 +1,38 @@
-.artigos {
+.latest-artigos {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-left: 9%;
+    margin-right: 5%;
 }
-.artigos__titulo {
-    font-size: 2em;
+
+.artigos__principal {
+    margin-left: 9%;
+    font-size: 2rem;
 }
 .artigos__img {
     display: flex;
-    width: 20%;
+    width: 90%;
+    border-radius: 5px;
 }
 .credits {
+    display: flex;
     font-size: 14px;
     color: gray;
+    margin-left: 5%;
+    margin-right: 6%;
+}
+.artigos__titulo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 7%;
+    margin-bottom: 2%;
 }
 .artigos__descricao {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top: 0%;
     color: gray;
 }

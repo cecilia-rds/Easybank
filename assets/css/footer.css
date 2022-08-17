@@ -1,5 +1,63 @@
-.attribution {
-    font-size: 11px; 
-    background-color: hsl(228, 45%, 44%);
-   
+footer{
+    background-color: hsl(233, 26%, 24%);
+}
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.logo__footer {
+    padding-top: 2%;
+    height: 40px;
+    margin-left: 8%;
+}
+.rodape__sociais {
+    margin-left: 2.4%;
+    margin-top: 4%
+
+}
+
+.menu__footer {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    text-decoration: none
+}
+.menu__footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    list-style: none;
+}
+.menu__footer-item {
+    color: white;
+    text-decoration: none;
+}
+.rodape__botao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.rodape__button {
+    background: linear-gradient(to right, #30d35c, #2ab6d9);
+    width: 168px;
+    height: 48px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+
+}
+.copyright {
+  color: gray;
+}
+
+
+@media(max-width:768px) {
+
+
+    
 }
