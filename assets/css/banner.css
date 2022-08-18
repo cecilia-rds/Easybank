@@ -2,37 +2,86 @@
     display: flex;
     flex-direction: column;
     margin-left: 10%;
-    margin-top: 5%;
-}
+ }
 .banner {
     display: flex;
-    
+    flex-direction: row-reverse;
 }
+
 .banner__img {
+    display:flex;
     background-image: 
         url('../images/bg-intro-desktop.svg');
-    width: 90%;
-    height: auto;
-
+    width: 300vh;
+    height: 98vh;
+  
 }
 .banner__tirulo {
     font-size: 3em;
-    margin-bottom: 0%;
+    margin-bottom: 6%;
+    margin-top: 25%;
 
 }
 .banner__descricao {
     color: gray;
     justify-items: center;
-
+    margin-bottom: 9%;
+    width: 90
+}
+.demonstracao {
+    margin-left: 20%;
+    width: 70%;
 }
 .banner__demonstracao {
-    width: 90%;
-    margin-left: 25%;
+    display: flex;
 }
 .banner__invite {
    border-radius: 50px;
    height: 6%;
    width: 30%;
- 
    background: linear-gradient(color #293b36 #252928 #a7dfce);
+}
+
+@media(max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+     
+    }
+    .banner {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .banner__img {
+        display: flex;
+        background-image: 
+            url('../images/bg-intro-mobile.svg');
+       
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        justify-content:center ;
+    
+    }
+    .banner__tirulo {
+        display: flex;
+        flex-direction: column;
+  
+    }
+    .demonstracao {
+        display: flex;
+        margin: auto;
+    }
+    .banner__demonstracao {
+        display: flex;  
+        width: 40%;
+        height: auto;
+     
+    }
+    .banner__invite {
+
+        
+    }
+    
 }
