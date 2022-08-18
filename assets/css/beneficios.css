@@ -7,12 +7,15 @@
 
 }
 .beneficio__inicio {
-   margin-left: 9%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 9%;
 
 }
 .beneficios__titulo-principal {
     font-size: 2rem;
-
+    padding-bottom: 3%;
+    margin-top: 10%;
 }
 
 .beneficios__img {
@@ -33,7 +36,7 @@
     color: gray;
     width: auto;
     margin-right: 5%;
-    gap: ;
+
 }
 .beneficios__subtitulo {
     color: gray;
@@ -54,21 +57,21 @@
         flex-direction: column;
         justify-items: center;  
 
+
     }
     .beneficios__titulo-principal {
         display: flex;
         text-align: center;
         justify-items: center;
         font-size: 2rem;
-    
+  
     }
     .beneficios__subtitulo {
         display: flex;
         text-align: center;
         width: auto;
         margin: 0%;
-  
-      
+        padding-top: 18%;
     }
     .beneficios__img {
         display: flex;
