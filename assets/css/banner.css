@@ -44,7 +44,7 @@
 }
 
 
-@media(max-width:968px) {
+@media(max-width:1024px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -55,13 +55,15 @@
         flex-direction: column;
         background-image: 
             url('../images/bg-intro-mobile.svg');
-   
+            width:auto;
     background-repeat: no-repeat;
-    justify-content:center ;
+    justify-content:center;
     
     }
     .banner__img {
         display: flex;
+  
+        width:auto
 
     
     }
@@ -69,7 +71,7 @@
         display: flex;
         flex-direction: column;
         justify-items : center;
-        padding-top: 3%;
+        padding-top: 1%;
         padding-bottom: 3%;
         text-align: center;
    
@@ -86,8 +88,9 @@
     }
     .banner__demonstracao {
         display: flex;  
-        width: 40%;
+        width: 100%;
         align-items: center;
+      
         
         
     }
