@@ -34,9 +34,9 @@
         justify-content: center;
       }
     .menu {
-        display: none;
-        flex-direction: column;
-        justify-content: center;
+        display: ;
+        flex-direction: row;
+        justify-content: space-between
     }
     .button__invite {
         display: none;
