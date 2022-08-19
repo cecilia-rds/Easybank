@@ -32,11 +32,16 @@
     .cabeçalho {
         display: flex;
         flex-direction: column;
-        padding-top: 19%;
-      }
+        padding-top: 5%;
+    }
     .menu {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+   
+    }
+    .menu-item {
+        margin: 10px 5px 10px 5px;
         
     }
     .button__invite {

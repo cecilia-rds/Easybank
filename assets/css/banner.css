@@ -6,6 +6,7 @@
 .banner {
     display: flex;
     flex-direction: row-reverse;
+   
 }
 
 .banner__img {
@@ -19,7 +20,7 @@
 .banner__tirulo {
     font-size: 3em;
     margin-bottom: 6%;
-    margin-top: 25%;
+    margin-top: 35%;
 
 }
 .banner__descricao {
@@ -48,13 +49,14 @@
     .container {
         display: flex;
         flex-direction: column;
-     
+    
     }
     .banner {
+        padding-top: 5%;
         display: flex;
         flex-direction: column;
         background-image: 
-            url('../images/bg-intro-mobile.svg');
+            ('../images/bg-intro-mobile.svg');
             width:auto;
     background-repeat: no-repeat;
     justify-content:center;
@@ -62,16 +64,14 @@
     }
     .banner__img {
         display: flex;
-  
-        width:auto
-
-    
+          width:auto
+              
     }
     .banner__tirulo {
         display: flex;
         flex-direction: column;
         justify-items : center;
-        padding-top: 1%;
+        padding-top: 2%;
         padding-bottom: 3%;
         text-align: center;
    
@@ -81,10 +81,12 @@
         width: 70%;
         margin: auto;
         padding-bottom: 7%;
+
     }
     .demonstracao {
         display: flex;
         margin: auto;
+        width: auto;
     }
     .banner__demonstracao {
         display: flex;  
