@@ -12,9 +12,9 @@
     display:flex;
     background-image: 
         url('../images/bg-intro-desktop.svg');
+        background-repeat: no-repeat;
     width: 300vh;
     height: 98vh;
-  
 }
 .banner__tirulo {
     font-size: 3em;
@@ -26,7 +26,7 @@
     color: gray;
     justify-items: center;
     margin-bottom: 9%;
-    width: 90
+    width: 
 }
 .demonstracao {
     margin-left: 20%;
@@ -40,9 +40,11 @@
    height: 6%;
    width: 30%;
    background: linear-gradient(color #293b36 #252928 #a7dfce);
+   
 }
 
-@media(max-width:768px) {
+
+@media(max-width:968px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -51,23 +53,32 @@
     .banner {
         display: flex;
         flex-direction: column;
+        background-image: 
+            url('../images/bg-intro-mobile.svg');
+   
+    background-repeat: no-repeat;
+    justify-content:center ;
     
     }
     .banner__img {
         display: flex;
-        background-image: 
-            url('../images/bg-intro-mobile.svg');
-       
-        background-repeat: no-repeat;
-        width: 100%;
-        height: auto;
-        justify-content:center ;
+
     
     }
     .banner__tirulo {
         display: flex;
         flex-direction: column;
-  
+        justify-items : center;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        text-align: center;
+   
+    }
+    .banner__descricao  {
+        display: flex;
+        width: 70%;
+        margin: auto;
+        padding-bottom: 7%;
     }
     .demonstracao {
         display: flex;
@@ -76,12 +87,12 @@
     .banner__demonstracao {
         display: flex;  
         width: 40%;
-        height: auto;
-     
-    }
-    .banner__invite {
-
+        align-items: center;
         
+        
+    }
+    .button {
+        margin: auto;
     }
     
 }
