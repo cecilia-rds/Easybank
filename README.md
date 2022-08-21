@@ -1,6 +1,6 @@
 # Easybank landing page
 
-> Status do projeto: :warning: (em desenvolvimento)
+> Status do projeto: > :heavy_check_mark: (Concluido)
 
 ![Design preview for the Easybank landing page coding challenge](./assets//design/desktop-preview.jpg)
 
